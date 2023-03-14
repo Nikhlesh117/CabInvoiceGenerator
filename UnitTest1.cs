@@ -7,7 +7,7 @@ namespace NUnitInvoiceGeneratorTest
 
         InvoiceGenerator invoiceGenerator = null;
 
-        // Test Case for UC1-Calculate Total Fare
+        // Test Case for UC1
         [TestMethod]
         public void GivenDistanceAndTimeShouldReturnTotalFare()
         {
@@ -18,7 +18,7 @@ namespace NUnitInvoiceGeneratorTest
             double expected = 25;
             Assert.AreEqual(expected, fare);
         }
-        // Test Case for  UC-2- Add Multiple rides
+        // Test Case for UC-2
         [TestMethod]
         public void GivenMultipleRideShouldReturnInvoiceSummary()
         {
